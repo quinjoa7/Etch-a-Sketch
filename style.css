@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restart {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(var(--rows), 1fr);
+    grid-template-columns: repeat(var(--cols), 1fr);
+    width: 800px;
+    height: 800px;
+    background-color: white;
+}
+
+.box {
+    border: .1rem solid black;
+    background-color: white;
+}
+
+.painted {
+    background-color: red;
+}
