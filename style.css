@@ -21,10 +21,18 @@ body {
 }
 
 .box {
-    border: .1rem solid black;
+    border: .1rem solid rgb(0, 0, 0);
     background-color: white;
 }
 
-.painted {
-    background-color: red;
+.paintedNormal {
+    background-color: rgb(0, 0, 0);
+}
+
+.paintedColor {
+    background-color: var(--randomColor);
+}
+
+.paintedScale {
+    background-color: var(--scale);
 }
